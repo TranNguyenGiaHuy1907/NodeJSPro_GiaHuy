@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_pro_giahuy",
+  "version": "1.0.0",
+  "description": "nodejs pro giahuy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy/issues"
+  },
+  "homepage": "https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy#readme"
+}
