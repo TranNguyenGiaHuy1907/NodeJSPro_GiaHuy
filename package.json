@@ -13,10 +13,13 @@
   "keywords": [
     "nodejs"
   ],
-  "author": "",
+  "author": "GiaHuy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy/issues"
   },
-  "homepage": "https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy#readme"
+  "homepage": "https://github.com/TranNguyenGiaHuy1907/NodeJSPro_GiaHuy#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }
