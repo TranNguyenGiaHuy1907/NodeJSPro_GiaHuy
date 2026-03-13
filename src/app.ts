@@ -1,13 +1,25 @@
-//const express = require("express");
 import express from "express";
+import 'dotenv/config';
 
 
 const app = express();
+const PORT = process.env.PORT || 8080;
 
-const PORT = 8080;
+//config view engine
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views')
+
 
 app.get("/", (req, res) => {
-    res.send("Hello World Nodemon")
+    res.render("home.ejs")
+});
+
+app.get("/giahuy", (req, res) => {
+    res.send("Hello GiaHuyy")
+});
+
+app.get("/abc", (req, res) => {
+    res.send("ABC")
 })
 
 
