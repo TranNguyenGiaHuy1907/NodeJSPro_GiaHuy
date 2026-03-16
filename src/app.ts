@@ -1,6 +1,7 @@
 import express from "express";
 import 'dotenv/config';
 import webRoutes from "./routes/web";
+import getConnection from "./config/database";
 
 
 const app = express();
@@ -19,7 +20,6 @@ app.use(express.static('public'));
 
 //config routes
 webRoutes(app);
-
 
 
 app.listen(PORT, () => {
